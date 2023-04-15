@@ -1,0 +1,78 @@
+[General]
+allow-udp-proxy=false
+bypass-tun=10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
+dns-server=system,119.29.29.29,223.5.5.5
+host=127.0.0.1
+skip-proxy=192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,e.crashlynatics.com
+
+[Proxy]
+🇯🇵 hu-东京arm1 = vmess,v0.huxiaoshuai.gq,443,chacha20-ietf-poly1305,"b7b0cef0-4c9d-446d-c673-f1d9ea1c1a7c",over-tls:true,tls-name:v0.huxiaoshuai.gq,transport:ws,path:/hu,host:v0.huxiaoshuai.gq,skip-cert-verify:0
+🇯🇵 hu-东京arm2 = vmess,v3.huxiaoshuai.gq,443,chacha20-ietf-poly1305,"f31269fb-db09-463c-eec2-deae9a692e1a",over-tls:true,tls-name:v3.huxiaoshuai.gq,transport:ws,path:/hu,host:v3.huxiaoshuai.gq,skip-cert-verify:0
+陈杰-春川-vmess = vmess,v2.lxwlxw.ml,443,chacha20-ietf-poly1305,"be96bbc5-c084-4d6e-b1e5-e38a8bd12247",over-tls:true,tls-name:v2.lxwlxw.ml,transport:ws,path:/cj1,host:v2.lxwlxw.ml,skip-cert-verify:0
+🇸🇬 新加坡1 = vmess,sg1.clare88.cf,443,chacha20-ietf-poly1305,"85b5582a-76e5-436d-d725-cd617e4155e4",over-tls:true,tls-name:sg1.clare88.cf,transport:ws,path:/shen,host:sg1.clare88.cf,skip-cert-verify:0
+🇸🇬 新加坡2 = vmess,sg2.clare88.cf,443,chacha20-ietf-poly1305,"a438b1cf-ec92-4aa5-bafe-345b95a96dc1",over-tls:true,tls-name:sg2.clare88.cf,transport:ws,path:/shen,host:sg2.clare88.cf,skip-cert-verify:0
+🇺🇸 美西圣何塞 = vmess,v2.clare886.ga,443,chacha20-ietf-poly1305,"d8e920e7-2663-4b85-ba9f-1e1b1e16f55c",over-tls:true,tls-name:v2.clare886.ga,transport:ws,path:/shen,host:v2.clare886.ga,skip-cert-verify:0
+ = vmess,193.123.241.253,81,chacha20-ietf-poly1305,"64d626a4-26e8-4164-bd98-3a8b9d94ed16",over-tls:false,transport:ws,path:/v2,host:,skip-cert-verify:0
+233v2.com_t.clare886.tk = vmess,t.clare886.tk,443,chacha20-ietf-poly1305,"d224a54a-c00d-413b-bb89-6fb9f6f9041b",over-tls:true,tls-name:t.clare886.tk,transport:ws,path:/,host:t.clare886.tk,skip-cert-verify:0
+cc1.clare88.ml_Trojan-clone = trojan,cc1.clare88.ml,443,62c0e5a5-7f32-40fa-ad73-a8cb79b0790e,tls-name:cc1.clare88.ml,skip-cert-verify:0
+arm_cj_cc_vmess = vmess,v2.lxwlxw.ml,443,chacha20-ietf-poly1305,"c3a64a77-1ab7-4fd5-e271-0f998870001f",over-tls:true,tls-name:v2.lxwlxw.ml,transport:ws,path:/cj,host:v2.lxwlxw.ml,skip-cert-verify:0
+vmess_gs_arm1 = vmess,v2.clare88.ml,443,chacha20-ietf-poly1305,"26362ba2-a7c5-436a-a6d4-a95ba49f4e89",over-tls:true,tls-name:v2.clare88.ml,transport:ws,path:/xiaoshenshen,host:v2.clare88.ml,skip-cert-verify:0
+春川arm = vmess,v2.clare88.ga,443,chacha20-ietf-poly1305,"0bc4a0e1-8482-43a3-a6f9-18717398d1ba",over-tls:true,tls-name:v2.clare88.ga,transport:ws,path:/shen,host:v2.clare88.ga,skip-cert-verify:0
+免流 = vmess,123.clare88.ga,80,chacha20-ietf-poly1305,"e3580665-0be0-4882-c012-1642da6fce3a",over-tls:false,transport:ws,path:/123,host:123.clare88.ga,skip-cert-verify:0
+🇯🇵 东京vmess = vmess,v2.clare88.gq,443,chacha20-ietf-poly1305,"f4c3ede4-80f0-46d8-c34f-11635be1af82",over-tls:true,tls-name:v2.clare88.gq,transport:ws,path:/shen,host:v2.clare88.gq,skip-cert-verify:0
+春川arm2 = vmess,v2.clare88.ml,443,chacha20-ietf-poly1305,"39b69eca-b4fd-40cb-de1f-73355ce73b14",over-tls:true,tls-name:v2.clare88.ml,transport:ws,path:/shen,host:v2.clare88.ml,skip-cert-verify:0
+🇯🇵 东京arm2 = vmess,v2.clare88.tk,443,chacha20-ietf-poly1305,"495ef1aa-3db9-490e-9fce-859f980b9431",over-tls:true,tls-name:v2.clare88.tk,transport:ws,path:/shen,host:v2.clare88.tk,skip-cert-verify:0
+
+[Remote Proxy]
+
+[Proxy Group]
+🔰 节点选择 = select,♻️ 自动选择,🎯 全球直连,🇯🇵 hu-东京arm1,🇯🇵 hu-东京arm2,陈杰-春川-vmess,🇸🇬 新加坡1,🇸🇬 新加坡2,🇺🇸 美西圣何塞,,233v2.com_t.clare886.tk,cc1.clare88.ml_Trojan-clone,arm_cj_cc_vmess,vmess_gs_arm1,春川arm,免流,🇯🇵 东京vmess,春川arm2,🇯🇵 东京arm2
+♻️ 自动选择 = url-test,🇯🇵 hu-东京arm1,🇯🇵 hu-东京arm2,陈杰-春川-vmess,🇸🇬 新加坡1,🇸🇬 新加坡2,🇺🇸 美西圣何塞,,233v2.com_t.clare886.tk,cc1.clare88.ml_Trojan-clone,arm_cj_cc_vmess,vmess_gs_arm1,春川arm,免流,🇯🇵 东京vmess,春川arm2,🇯🇵 东京arm2,url=http://www.gstatic.com/generate_204,interval=300
+🎥 NETFLIX = select,🔰 节点选择,♻️ 自动选择,🎯 全球直连,🇯🇵 hu-东京arm1,🇯🇵 hu-东京arm2,陈杰-春川-vmess,🇸🇬 新加坡1,🇸🇬 新加坡2,🇺🇸 美西圣何塞,,233v2.com_t.clare886.tk,cc1.clare88.ml_Trojan-clone,arm_cj_cc_vmess,vmess_gs_arm1,春川arm,免流,🇯🇵 东京vmess,春川arm2,🇯🇵 东京arm2
+⛔️ 广告拦截 = select,🛑 全球拦截,🎯 全球直连,🔰 节点选择
+🚫 运营劫持 = select,🛑 全球拦截,🎯 全球直连,🔰 节点选择
+🌍 国外媒体 = select,🔰 节点选择,♻️ 自动选择,🎯 全球直连,🇯🇵 hu-东京arm1,🇯🇵 hu-东京arm2,陈杰-春川-vmess,🇸🇬 新加坡1,🇸🇬 新加坡2,🇺🇸 美西圣何塞,,233v2.com_t.clare886.tk,cc1.clare88.ml_Trojan-clone,arm_cj_cc_vmess,vmess_gs_arm1,春川arm,免流,🇯🇵 东京vmess,春川arm2,🇯🇵 东京arm2
+🌏 国内媒体 = select,🎯 全球直连,🔰 节点选择
+Ⓜ️ 微软服务 = select,🎯 全球直连,🔰 节点选择,🇯🇵 hu-东京arm1,🇯🇵 hu-东京arm2,陈杰-春川-vmess,🇸🇬 新加坡1,🇸🇬 新加坡2,🇺🇸 美西圣何塞,,233v2.com_t.clare886.tk,cc1.clare88.ml_Trojan-clone,arm_cj_cc_vmess,vmess_gs_arm1,春川arm,免流,🇯🇵 东京vmess,春川arm2,🇯🇵 东京arm2
+📲 电报信息 = select,🔰 节点选择,🎯 全球直连,🇯🇵 hu-东京arm1,🇯🇵 hu-东京arm2,陈杰-春川-vmess,🇸🇬 新加坡1,🇸🇬 新加坡2,🇺🇸 美西圣何塞,,233v2.com_t.clare886.tk,cc1.clare88.ml_Trojan-clone,arm_cj_cc_vmess,vmess_gs_arm1,春川arm,免流,🇯🇵 东京vmess,春川arm2,🇯🇵 东京arm2
+🍎 苹果服务 = select,🔰 节点选择,🎯 全球直连,♻️ 自动选择,🇯🇵 hu-东京arm1,🇯🇵 hu-东京arm2,陈杰-春川-vmess,🇸🇬 新加坡1,🇸🇬 新加坡2,🇺🇸 美西圣何塞,,233v2.com_t.clare886.tk,cc1.clare88.ml_Trojan-clone,arm_cj_cc_vmess,vmess_gs_arm1,春川arm,免流,🇯🇵 东京vmess,春川arm2,🇯🇵 东京arm2
+🎯 全球直连 = select,DIRECT
+🛑 全球拦截 = select,REJECT,DIRECT
+🐟 漏网之鱼 = select,🔰 节点选择,🎯 全球直连,♻️ 自动选择,🇯🇵 hu-东京arm1,🇯🇵 hu-东京arm2,陈杰-春川-vmess,🇸🇬 新加坡1,🇸🇬 新加坡2,🇺🇸 美西圣何塞,,233v2.com_t.clare886.tk,cc1.clare88.ml_Trojan-clone,arm_cj_cc_vmess,vmess_gs_arm1,春川arm,免流,🇯🇵 东京vmess,春川arm2,🇯🇵 东京arm2
+
+[Rule]
+GEOIP,CN,🎯 全球直连
+FINAL,🐟 漏网之鱼
+
+[Remote Rule]
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvTG9jYWxBcmVhTmV0d29yay5saXN0,🎯 全球直连
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvTVNTZXJ2aWNlcy5saXN0,Ⓜ️ 微软服务
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvVW5icmVhay5saXN0,🎯 全球直连
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvTm9ieURhL1N1cmdlL0FkUnVsZS5saXN0,🛑 全球拦截
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvR3VhcmQvSGlqYWNraW5nLmxpc3Q,🛑 全球拦截
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvU3RyZWFtaW5nTWVkaWEvVmlkZW8vTmV0ZmxpeC5saXN0,🎥 NETFLIX
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvU3RyZWFtaW5nTWVkaWEvU3RyZWFtaW5nLmxpc3Q,🌍 国外媒体
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvbGhpZTEvU3VyZ2UvU3VyZ2UgMy9Qcm92aWRlci9NZWRpYS9CaWxpYmlsaS5saXN0,🌏 国内媒体
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvbGhpZTEvU3VyZ2UvU3VyZ2UgMy9Qcm92aWRlci9NZWRpYS9pUWl5aS5saXN0,🌏 国内媒体
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvbGhpZTEvU3VyZ2UvU3VyZ2UgMy9Qcm92aWRlci9NZWRpYS9MZXR2Lmxpc3Q,🌏 国内媒体
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvbGhpZTEvU3VyZ2UvU3VyZ2UgMy9Qcm92aWRlci9NZWRpYS9NT08ubGlzdA,🌏 国内媒体
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvbGhpZTEvU3VyZ2UvU3VyZ2UgMy9Qcm92aWRlci9NZWRpYS9UZW5jZW50IFZpZGVvLmxpc3Q,🌏 国内媒体
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvbGhpZTEvU3VyZ2UvU3VyZ2UgMy9Qcm92aWRlci9NZWRpYS9Zb3VrdS5saXN0,🌏 国内媒体
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvRXh0cmEvVGVsZWdyYW0vVGVsZWdyYW0ubGlzdA,📲 电报信息
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvR2xvYmFsLmxpc3Q,🔰 节点选择
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvRXh0cmEvQXBwbGUvQXBwbGUubGlzdA,🍎 苹果服务
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvRGl2aW5lRW5naW5lL1N1cmdlL1J1bGVzZXQvQ2hpbmEubGlzdA,🎯 全球直连
+http://127.0.0.1:25500/getruleset?type=1&url=c3VyZ2U6cnVsZXMvTm9ieURhL1N1cmdlL0Rvd25sb2FkLmxpc3Q,🎯 全球直连
+
+[URL Rewrite]
+enable=true
+^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
+
+[Remote Rewrite]
+https://raw.githubusercontent.com/Loon0x00/LoonExampleConfig/master/Rewrite/AutoRewrite_Example.list,auto
+
+[MITM]
+enable=true
+hostname=*.example.com,*.sample.com
+skip-server-cert-verify=true
+
